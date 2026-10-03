@@ -1,0 +1,47 @@
+{
+  "name": "die-per-wafer",
+  "version": "1.0.0",
+  "description": "Zero-dependency dies-per-wafer (DPW) and yield estimator for ASIC, MPW and wafer-cost planning. Murphy and Poisson yield models, edge exclusion and scribe lanes.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "die-per-wafer": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "semiconductor",
+    "die per wafer",
+    "dpw",
+    "yield",
+    "murphy",
+    "poisson",
+    "asic",
+    "mpw",
+    "wafer",
+    "cost per die",
+    "tape-out"
+  ],
+  "author": "TOMPW Service <market@tompwservice.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tompw-service/die-per-wafer.git"
+  },
+  "homepage": "https://www.tompwservice.com/tools/die-per-wafer",
+  "bugs": {
+    "url": "https://github.com/tompw-service/die-per-wafer/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
